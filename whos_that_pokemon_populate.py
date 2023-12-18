@@ -1333,5 +1333,13 @@ pokemon150.hasCategory = [lendario]
 pokemon150.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
 pokemon150.hasDiverseTraits = [anda_de_dois]
 
+# Mew
+pokemon151 = onto.Pokemon("Mew")
+pokemon151.hasType = [psiquico]
+pokemon151.hasColor = [rosa]
+pokemon151.hasCategory = [mitico]
+pokemon151.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
+pokemon151.hasDiverseTraits = []
+
 # Salvar a ontologia em um arquivo RDF
 onto.save("pokemon_ontology.owl", format="rdfxml")
