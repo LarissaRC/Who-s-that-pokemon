@@ -70,7 +70,21 @@ pokemon1.hasDiverseTraits = [anda_de_quatro]
 
 # Ivysaur
 
+pokemon2 = onto.Pokemon("Ivysaur")
+pokemon2.hasType = [grama, venenoso]
+pokemon2.hasColor = [verde]
+pokemon2.hasCategory = [normal]
+pokemon2.hasPhysicalTrait = [pes, maos, focinho, orelhas, boca]
+pokemon2.hasDiverseTraits = [evolucao, anda_de_quatro]
+
 # Venusaur
+
+pokemon3 = onto.Pokemon("Venusaur")
+pokemon3.hasType = [grama, venenoso]
+pokemon3.hasColor = [verde]
+pokemon3.hasCategory = [normal]
+pokemon3.hasPhysicalTrait = [pes, maos, focinho, orelhas, boca]
+pokemon3.hasDiverseTraits = [evolucao, anda_de_quatro]
 
 # Charmander
 pokemon4 = onto.Pokemon("Charmander")
@@ -82,7 +96,22 @@ pokemon4.hasDiverseTraits = [anda_de_dois]
 
 # Charmaleon
 
+pokemon5 = onto.Pokemon("Charmaleon")
+pokemon5.hasType = [fogo]
+pokemon5.hasColor = [laranja]
+pokemon5.hasCategory = [normal]
+pokemon5.hasPhysicalTrait = [pes, maos, focinho, cauda, boca]
+pokemon5.hasDiverseTraits = [evolucao, anda_de_dois]
+
 # Charizard
+
+pokemon6 = onto.Pokemon("Charizard")
+pokemon6.hasType = [fogo, voador]
+pokemon6.hasColor = [laranja]
+pokemon6.hasCategory = [normal]
+pokemon6.hasPhysicalTrait = [pes, maos, focinho, cauda, boca, asas]
+pokemon6.hasDiverseTraits = [evolucao, anda_de_dois]
+
 
 # Squirtle
 pokemon7 = onto.Pokemon("Squirtle")
@@ -94,89 +123,372 @@ pokemon7.hasDiverseTraits = [anda_de_dois]
 
 # Wartortle
 
+pokemon8 = onto.Pokemon("Wartortle")
+pokemon8.hasType = [agua]
+pokemon8.hasColor = [azul]
+pokemon8.hasCategory = [normal]
+pokemon8.hasPhysicalTrait = [pes, maos, focinho, cauda, boca]
+pokemon8.hasDiverseTraits = [evolucao, anda_de_dois]
+
 # Blastoise
+
+pokemon9 = onto.Pokemon("Blastoise")
+pokemon9.hasType = [agua]
+pokemon9.hasColor = [azul]
+pokemon9.hasCategory = [normal]
+pokemon9.hasPhysicalTrait = [pes, maos, focinho, cauda, boca]
+pokemon9.hasDiverseTraits = [evolucao, anda_de_dois]
 
 # Caterpie
 
+pokemon10 = onto.Pokemon("Caterpie")
+pokemon10.hasType = [inseto]
+pokemon10.hasColor = [verde]
+pokemon10.hasCategory = [normal]
+pokemon10.hasPhysicalTrait = [cauda]
+pokemon10.hasDiverseTraits = []
+
 # Metapod
+
+pokemon11 = onto.Pokemon("Metapod")
+pokemon11.hasType = [inseto]
+pokemon11.hasColor = [verde]
+pokemon11.hasCategory = [normal]
+pokemon11.hasPhysicalTrait = []
+pokemon11.hasDiverseTraits = [evolucao]
 
 # Butterfree
 
+pokemon12 = onto.Pokemon("Butterfree")
+pokemon12.hasType = [inseto, voador]
+pokemon12.hasColor = [roxo]
+pokemon12.hasCategory = [normal]
+pokemon12.hasPhysicalTrait = [boca, asas, pes]
+pokemon12.hasDiverseTraits = [evolucao]
+
 # Weedle
+
+pokemon13 = onto.Pokemon("Weedle")
+pokemon13.hasType = [inseto, venenoso]
+pokemon13.hasColor = [marrom]
+pokemon13.hasCategory = [normal]
+pokemon13.hasPhysicalTrait = [cauda, chifres]
+pokemon13.hasDiverseTraits = []
 
 # Kakuna
 
+pokemon14 = onto.Pokemon("Kakuna")
+pokemon14.hasType = [inseto, venenoso]
+pokemon14.hasColor = [amarelo]
+pokemon14.hasCategory = [normal]
+pokemon14.hasPhysicalTrait = []
+pokemon14.hasDiverseTraits = [evolucao]
+
 # Beedrill
+
+pokemon15 = onto.Pokemon("Beedrill")
+pokemon15.hasType = [inseto, venenoso, voador]
+pokemon15.hasColor = [amarelo]
+pokemon15.hasCategory = [normal]
+pokemon15.hasPhysicalTrait = [asas, chifres]
+pokemon15.hasDiverseTraits = [evolucao]
 
 # Pidgey
 
+pokemon16 = onto.Pokemon("Pidgey")
+pokemon16.hasType = [normal, voador]
+pokemon16.hasColor = [marrom]
+pokemon16.hasCategory = [normal]
+pokemon16.hasPhysicalTrait = [asas, bico, pes]
+pokemon16.hasDiverseTraits = [anda_de_dois]
+
 # Pidgeotto
+
+pokemon17 = onto.Pokemon("Pidgeotto")
+pokemon17.hasType = [normal, voador]
+pokemon17.hasColor = [marrom]
+pokemon17.hasCategory = [normal]
+pokemon17.hasPhysicalTrait = [asas, bico, pes]
+pokemon17.hasDiverseTraits = [evolucao, anda_de_dois]
 
 # Pidgeot
 
+pokemon18 = onto.Pokemon("Pidgeot")
+pokemon18.hasType = [normal, voador]
+pokemon18.hasColor = [marrom]
+pokemon18.hasCategory = [normal]
+pokemon18.hasPhysicalTrait = [asas, bico, pes]
+pokemon18.hasDiverseTraits = [evolucao, anda_de_dois]
+
 # Rattata
+
+pokemon19 = onto.Pokemon("Rattata")
+pokemon19.hasType = [normal]
+pokemon19.hasColor = [roxo]
+pokemon19.hasCategory = [normal]
+pokemon19.hasPhysicalTrait = [cauda, boca, orelhas]
+pokemon19.hasDiverseTraits = [anda_de_quatro]
 
 # Raticate
 
+pokemon20 = onto.Pokemon("Raticate")
+pokemon20.hasType = [normal]
+pokemon20.hasColor = [marrom]
+pokemon20.hasCategory = [normal]
+pokemon20.hasPhysicalTrait = [cauda, boca, orelhas, pes]
+pokemon20.hasDiverseTraits = [evolucao, anda_de_quatro]
+
 # Spearow
+
+pokemon21 = onto.Pokemon("Spearow")
+pokemon21.hasType = [normal, voador]
+pokemon21.hasColor = [marrom]
+pokemon21.hasCategory = [normal]
+pokemon21.hasPhysicalTrait = [asas, bico]
+pokemon21.hasDiverseTraits = []
 
 # Fearow
 
+pokemon22 = onto.Pokemon("Fearow")
+pokemon22.hasType = [normal, voador]
+pokemon22.hasColor = [marrom]
+pokemon22.hasCategory = [normal]
+pokemon22.hasPhysicalTrait = [asas, bico]
+pokemon22.hasDiverseTraits = [evolucao]
+
 # Ekans
+
+pokemon23 = onto.Pokemon("Ekans")
+pokemon23.hasType = [venenoso]
+pokemon23.hasColor = [roxo]
+pokemon23.hasCategory = [normal]
+pokemon23.hasPhysicalTrait = [cauda, boca]
+pokemon23.hasDiverseTraits = []
 
 # Arbok
 
+pokemon24 = onto.Pokemon("Arbok")
+pokemon24.hasType = [venenoso]
+pokemon24.hasColor = [roxo]
+pokemon24.hasCategory = [normal]
+pokemon24.hasPhysicalTrait = [cauda, boca]
+pokemon24.hasDiverseTraits = [evolucao]
+
 # Pikachu
+
+pokemon25 = onto.Pokemon("Pikachu")
+pokemon25.hasType = [eletrico]
+pokemon25.hasColor = [amarelo]
+pokemon25.hasCategory = [normal]
+pokemon25.hasPhysicalTrait = [cauda, pes, maos, focinho, orelhas, boca]
+pokemon25.hasDiverseTraits = [anda_de_dois, anda_de_quatro]
 
 # Raichu
 
-# Sandshrew
+pokemon26 = onto.Pokemon("Raichu")
+pokemon26.hasType = [eletrico]
+pokemon26.hasColor = [laranja]
+pokemon26.hasCategory = [normal]
+pokemon26.hasPhysicalTrait = [cauda, pes, maos, focinho, orelhas, boca]
+pokemon26.hasDiverseTraits = [anda_de_dois, anda_de_quatro]
 
 # Sandslash
 
+pokemon27 = onto.Pokemon("Sandslash")
+pokemon27.hasType = [solo]
+pokemon27.hasColor = [amarelo]
+pokemon27.hasCategory = [normal]
+pokemon27.hasPhysicalTrait = [pes, maos, focinho, cauda, boca]
+pokemon27.hasDiverseTraits = [evolucao]
+
 # Nidoran f
+
+pokemon28 = onto.Pokemon("Nidoran_f")
+pokemon28.hasType = [venenoso]
+pokemon28.hasColor = [roxo]
+pokemon28.hasCategory = [normal]
+pokemon28.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
+pokemon28.hasDiverseTraits = [anda_de_quatro]
 
 # Nidorina
 
+pokemon29 = onto.Pokemon("Nidorina")
+pokemon29.hasType = [venenoso]
+pokemon29.hasColor = [roxo]
+pokemon29.hasCategory = [normal]
+pokemon29.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
+pokemon29.hasDiverseTraits = [evolucao, anda_de_quatro, anda_de_dois]
+
 # Nidoqueen
+
+pokemon30 = onto.Pokemon("Nidoqueen")
+pokemon30.hasType = [venenoso, solo]
+pokemon30.hasColor = [roxo]
+pokemon30.hasCategory = [normal]
+pokemon30.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
+pokemon30.hasDiverseTraits = [evolucao, anda_de_quatro, anda_de_dois]
 
 # Nidoran m
 
+pokemon31 = onto.Pokemon("Nidoran_m")
+pokemon31.hasType = [venenoso]
+pokemon31.hasColor = [roxo]
+pokemon31.hasCategory = [normal]
+pokemon31.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
+pokemon31.hasDiverseTraits = [anda_de_quatro]
+
 # Nidorino
+
+pokemon32 = onto.Pokemon("Nidorino")
+pokemon32.hasType = [venenoso]
+pokemon32.hasColor = [roxo]
+pokemon32.hasCategory = [normal]
+pokemon32.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
+pokemon32.hasDiverseTraits = [evolucao, anda_de_quatro]
 
 # Nidoking
 
+pokemon33 = onto.Pokemon("Nidoking")
+pokemon33.hasType = [venenoso, solo]
+pokemon33.hasColor = [roxo]
+pokemon33.hasCategory = [normal]
+pokemon33.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
+pokemon33.hasDiverseTraits = [evolucao, anda_de_quatro]
+
 # Clefairy
+
+pokemon34 = onto.Pokemon("Clefairy")
+pokemon34.hasType = [normal]
+pokemon34.hasColor = [rosa]
+pokemon34.hasCategory = [normal]
+pokemon34.hasPhysicalTrait = [pes, maos, orelhas, boca]
+pokemon34.hasDiverseTraits = [anda_de_dois]
 
 # Clefable
 
+pokemon35 = onto.Pokemon("Clefable")
+pokemon35.hasType = [normal]
+pokemon35.hasColor = [rosa]
+pokemon35.hasCategory = [normal]
+pokemon35.hasPhysicalTrait = [pes, maos, orelhas, boca]
+pokemon35.hasDiverseTraits = [anda_de_dois, evolucao]
+
 # Vulpix
+
+pokemon36 = onto.Pokemon("Vulpix")
+pokemon36.hasType = [fogo]
+pokemon36.hasColor = [laranja]
+pokemon36.hasCategory = [normal]
+pokemon36.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
+pokemon36.hasDiverseTraits = [anda_de_quatro]
 
 # Ninetales
 
+pokemon37 = onto.Pokemon("Ninetales")
+pokemon37.hasType = [fogo]
+pokemon37.hasColor = [laranja]
+pokemon37.hasCategory = [normal]
+pokemon37.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
+pokemon37.hasDiverseTraits = [anda_de_quatro, evolucao]
+
 # Jigglypuff
+
+pokemon38 = onto.Pokemon("Jigglypuff")
+pokemon38.hasType = [normal]
+pokemon38.hasColor = [rosa]
+pokemon38.hasCategory = [normal]
+pokemon38.hasPhysicalTrait = [pes, maos, orelhas, boca]
+pokemon38.hasDiverseTraits = [anda_de_dois, redondo]
 
 # Wigglytuff
 
+pokemon39 = onto.Pokemon("Wigglytuff")
+pokemon39.hasType = [normal]
+pokemon39.hasColor = [rosa]
+pokemon39.hasCategory = [normal]
+pokemon39.hasPhysicalTrait = [pes, maos, orelhas, boca]
+pokemon39.hasDiverseTraits = [anda_de_dois, evolucao]
+
 # Zubat
+pokemon40 = onto.Pokemon("Zubat")
+pokemon40.hasType = [venenoso, voador]
+pokemon40.hasColor = [roxo]
+pokemon40.hasCategory = [normal]
+pokemon40.hasPhysicalTrait = [asas, boca]
+pokemon40.hasDiverseTraits = []
 
 # Golbat
+pokemon41 = onto.Pokemon("Golbat")
+pokemon41.hasType = [venenoso, voador]
+pokemon41.hasColor = [roxo]
+pokemon41.hasCategory = [normal]
+pokemon41.hasPhysicalTrait = [asas, boca]
+pokemon41.hasDiverseTraits = [evolucao]
 
-# Odish
+# Oddish
+pokemon42 = onto.Pokemon("Oddish")
+pokemon42.hasType = [grama, venenoso]
+pokemon42.hasColor = [azul]
+pokemon42.hasCategory = [normal]
+pokemon42.hasPhysicalTrait = [boca]
+pokemon42.hasDiverseTraits = []
 
 # Gloom
+pokemon43 = onto.Pokemon("Gloom")
+pokemon43.hasType = [grama, venenoso]
+pokemon43.hasColor = [azul]
+pokemon43.hasCategory = [normal]
+pokemon43.hasPhysicalTrait = [boca]
+pokemon43.hasDiverseTraits = [evolucao]
 
 # Vileplume
+pokemon44 = onto.Pokemon("Vileplume")
+pokemon44.hasType = [grama, venenoso]
+pokemon44.hasColor = [azul]
+pokemon44.hasCategory = [normal]
+pokemon44.hasPhysicalTrait = [boca]
+pokemon44.hasDiverseTraits = [evolucao]
 
 # Paras
+pokemon45 = onto.Pokemon("Paras")
+pokemon45.hasType = [inseto, grama]
+pokemon45.hasColor = [vermelho]
+pokemon45.hasCategory = [normal]
+pokemon45.hasPhysicalTrait = [boca]
+pokemon45.hasDiverseTraits = []
 
 # Parasect
+pokemon46 = onto.Pokemon("Parasect")
+pokemon46.hasType = [inseto, grama]
+pokemon46.hasColor = [vermelho]
+pokemon46.hasCategory = [normal]
+pokemon46.hasPhysicalTrait = [boca]
+pokemon46.hasDiverseTraits = [evolucao]
 
 # Venonat
+pokemon47 = onto.Pokemon("Venonat")
+pokemon47.hasType = [inseto, venenoso]
+pokemon47.hasColor = [roxo]
+pokemon47.hasCategory = [normal]
+pokemon47.hasPhysicalTrait = [boca]
+pokemon47.hasDiverseTraits = []
 
 # Venomoth
+pokemon48 = onto.Pokemon("Venomoth")
+pokemon48.hasType = [inseto, venenoso]
+pokemon48.hasColor = [roxo]
+pokemon48.hasCategory = [normal]
+pokemon48.hasPhysicalTrait = [boca]
+pokemon48.hasDiverseTraits = [evolucao]
 
 # Diglet
+
+pokemon50 = onto.Pokemon("Dugtrio")
+pokemon50.hasType = [solo]
+pokemon50.hasColor = [marrom]
+pokemon50.hasCategory = [normal]
+pokemon50.hasPhysicalTrait = [focinho, cauda, boca]
+pokemon50.hasDiverseTraits = []
 
 # Dugtrio
 pokemon51 = onto.Pokemon("Dugtrio")
