@@ -15,7 +15,7 @@ st.image('./img/titulo.png')
 st.header("Qual o tipo?")
 tipo1 = st.selectbox("", [
     "", "Grama", "Fogo", "Água", "Inseto", "Normal", "Lutador", "Voador", "Venenoso",
-    "Elétrico", "Solo", "Psíquico", "Rocha", "Fantasma", "Dragão", "Aço", "Gelo"
+    "Elétrico", "Solo", "Psíquico", "Rocha", "Fantasma", "Dragão", "Aço", "Gelo", "Fada"
 ], key=0)
 
 st.header("Qual a cor dele?")

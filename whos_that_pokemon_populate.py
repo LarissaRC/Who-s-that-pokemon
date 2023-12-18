@@ -20,6 +20,7 @@ fantasma = onto.Type("Fantasma")
 dragao = onto.Type("Dragão")
 aco = onto.Type("Aço")
 gelo = onto.Type("Gelo")
+fada = onto.Type("Fada")
 
 # Adicionar cores
 verde = onto.Color("Verde")
@@ -892,89 +893,390 @@ pokemon100.hasDiverseTraits = [parece_objeto, redondo]
 
 # Electrode
 
+pokemon101 = onto.Pokemon("Electrode")
+pokemon101.hasType = [eletrico]
+pokemon101.hasColor = [vermelho]
+pokemon101.hasCategory = [normal]
+pokemon101.hasPhysicalTrait = [boca]
+pokemon101.hasDiverseTraits = [parece_objeto, redondo, evolucao]
+
 # Exeggcute
+
+pokemon102 = onto.Pokemon("Exeggcute")
+pokemon102.hasType = [grama, psiquico]
+pokemon102.hasColor = [rosa]
+pokemon102.hasCategory = [normal]
+pokemon102.hasPhysicalTrait = [boca]
+pokemon102.hasDiverseTraits = [redondo, cabecas]
 
 # Exeggutor
 
+pokemon103 = onto.Pokemon("Exeggutor")
+pokemon103.hasType = [grama, psiquico]
+pokemon103.hasColor = [marrom_claro]
+pokemon103.hasCategory = [normal]
+pokemon103.hasPhysicalTrait = [pes, boca]
+pokemon103.hasDiverseTraits = [anda_de_dois, evolucao, cabecas]
+
 # Cubone
+
+pokemon104 = onto.Pokemon("Cubone")
+pokemon104.hasType = [solo]
+pokemon104.hasColor = [marrom_claro]
+pokemon104.hasCategory = [normal]
+pokemon104.hasPhysicalTrait = [pes, maos, cauda, focinho, chifres]
+pokemon104.hasDiverseTraits = [anda_de_dois, segura_objeto]
 
 # Marowak
 
+pokemon105 = onto.Pokemon("Marowak")
+pokemon105.hasType = [solo]
+pokemon105.hasColor = [marrom_claro]
+pokemon105.hasCategory = [normal]
+pokemon105.hasPhysicalTrait = [pes, maos, cauda, focinho, chifres]
+pokemon105.hasDiverseTraits = [anda_de_dois, segura_objeto, evolucao]
+
 # Hitmonlee
+
+pokemon106 = onto.Pokemon("Hitmonlee")
+pokemon106.hasType = [lutador]
+pokemon106.hasColor = [marrom_claro]
+pokemon106.hasCategory = [normal]
+pokemon106.hasPhysicalTrait = [pes, maos]
+pokemon106.hasDiverseTraits = [anda_de_dois]
 
 # Hitmonchan
 
+pokemon107 = onto.Pokemon("Hitmonchan")
+pokemon107.hasType = [lutador]
+pokemon107.hasColor = [marrom_claro]
+pokemon107.hasCategory = [normal]
+pokemon107.hasPhysicalTrait = [pes, maos, boca]
+pokemon107.hasDiverseTraits = [anda_de_dois, evolucao]
+
 # Lickitung
+
+pokemon108 = onto.Pokemon("Lickitung")
+pokemon108.hasType = [normal]
+pokemon108.hasColor = [rosa]
+pokemon108.hasCategory = [normal]
+pokemon108.hasPhysicalTrait = [pes, maos, cauda, boca]
+pokemon108.hasDiverseTraits = [anda_de_dois]
 
 # Koffing
 
+pokemon109 = onto.Pokemon("Koffing")
+pokemon109.hasType = [venenoso]
+pokemon109.hasColor = [roxo]
+pokemon109.hasCategory = [normal]
+pokemon109.hasPhysicalTrait = [boca]
+pokemon109.hasDiverseTraits = [redondo]
+
 # Weezing
+
+pokemon110 = onto.Pokemon("Weezing")
+pokemon110.hasType = [venenoso]
+pokemon110.hasColor = [roxo]
+pokemon110.hasCategory = [normal]
+pokemon110.hasPhysicalTrait = [boca]
+pokemon110.hasDiverseTraits = [redondo, evolucao, cabecas]
 
 # Rhydorn
 
+pokemon111 = onto.Pokemon("Rhyhorn")
+pokemon111.hasType = [solo, rocha]
+pokemon111.hasColor = [cinza]
+pokemon111.hasCategory = [normal]
+pokemon111.hasPhysicalTrait = [pes, chifres, boca, focinho]
+pokemon111.hasDiverseTraits = [anda_de_quatro]
+
 # Rhydon
+
+pokemon112 = onto.Pokemon("Rhydon")
+pokemon112.hasType = [solo, rocha]
+pokemon112.hasColor = [cinza]
+pokemon112.hasCategory = [normal]
+pokemon112.hasPhysicalTrait = [pes, maos, chifres, boca, cauda, orelhas]
+pokemon112.hasDiverseTraits = [anda_de_dois, evolucao]
 
 # Chansey
 
+pokemon113 = onto.Pokemon("Chansey")
+pokemon113.hasType = [normal]
+pokemon113.hasColor = [rosa]
+pokemon113.hasCategory = [normal]
+pokemon113.hasPhysicalTrait = [pes, maos, cauda, boca, orelhas]
+pokemon113.hasDiverseTraits = [redondo, anda_de_dois, segura_objeto, evolucao]
+
 # Tangela
+
+pokemon114 = onto.Pokemon("Tangela")
+pokemon114.hasType = [grama]
+pokemon114.hasColor = [azul]
+pokemon114.hasCategory = [normal]
+pokemon114.hasPhysicalTrait = [pes]
+pokemon114.hasDiverseTraits = [anda_de_dois]
 
 # Kangaskhan
 
+pokemon115 = onto.Pokemon("Kangaskhan")
+pokemon115.hasType = [normal]
+pokemon115.hasColor = [marrom_claro]
+pokemon115.hasCategory = [normal]
+pokemon115.hasPhysicalTrait = [pes, maos, cauda, boca, orelhas, focinho]
+pokemon115.hasDiverseTraits = [anda_de_dois]
+
 # Horsea
+
+pokemon116 = onto.Pokemon("Horsea")
+pokemon116.hasType = [agua]
+pokemon116.hasColor = [azul]
+pokemon116.hasCategory = [normal]
+pokemon116.hasPhysicalTrait = [cauda, boca, orelhas]
+pokemon116.hasDiverseTraits = []
 
 # Seadra
 
+pokemon117 = onto.Pokemon("Seadra")
+pokemon117.hasType = [agua]
+pokemon117.hasColor = [azul]
+pokemon117.hasCategory = [normal]
+pokemon117.hasPhysicalTrait = [cauda, boca, orelhas]
+pokemon117.hasDiverseTraits = [evolucao]
+
 # Goldeen
+
+pokemon118 = onto.Pokemon("Goldeen")
+pokemon118.hasType = [agua]
+pokemon118.hasColor = [branco]
+pokemon118.hasCategory = [normal]
+pokemon118.hasPhysicalTrait = [cauda, boca, chifres]
+pokemon118.hasDiverseTraits = []
 
 # Seaking
 
+pokemon119 = onto.Pokemon("Seaking")
+pokemon119.hasType = [agua]
+pokemon119.hasColor = [branco]
+pokemon119.hasCategory = [normal]
+pokemon119.hasPhysicalTrait = [cauda, boca, chifres]
+pokemon119.hasDiverseTraits = [evolucao]
+
 # Staryu
+
+pokemon120 = onto.Pokemon("Staryu")
+pokemon120.hasType = [agua]
+pokemon120.hasColor = [marrom]
+pokemon120.hasCategory = [normal]
+pokemon120.hasPhysicalTrait = []
+pokemon120.hasDiverseTraits = []
 
 # Starmie
 
+pokemon121 = onto.Pokemon("Starmie")
+pokemon121.hasType = [agua, psiquico]
+pokemon121.hasColor = [roxo]
+pokemon121.hasCategory = [normal]
+pokemon121.hasPhysicalTrait = []
+pokemon121.hasDiverseTraits = [evolucao]
+
 # Mr. Mime
+
+pokemon122 = onto.Pokemon("Mr. Mime")
+pokemon122.hasType = [psiquico, fada]
+pokemon122.hasColor = [rosa]
+pokemon122.hasCategory = [normal]
+pokemon122.hasPhysicalTrait = [pes, maos, boca]
+pokemon122.hasDiverseTraits = [evolucao, anda_de_dois]
 
 # Scyther
 
+pokemon123 = onto.Pokemon("Scyther")
+pokemon123.hasType = [inseto, voador]
+pokemon123.hasColor = [verde]
+pokemon123.hasCategory = [normal]
+pokemon123.hasPhysicalTrait = [pes, asas, focinho, boca]
+pokemon123.hasDiverseTraits = [anda_de_dois]
+
 # Jynx
+
+pokemon124 = onto.Pokemon("Jynx")
+pokemon124.hasType = [gelo, psiquico]
+pokemon124.hasColor = [roxo]
+pokemon124.hasCategory = [normal]
+pokemon124.hasPhysicalTrait = [maos, boca]
+pokemon124.hasDiverseTraits = [evolucao]
 
 # Electabuzz
 
+pokemon125 = onto.Pokemon("Electabuzz")
+pokemon125.hasType = [eletrico]
+pokemon125.hasColor = [amarelo]
+pokemon125.hasCategory = [normal]
+pokemon125.hasPhysicalTrait = [pes, maos, cauda, boca]
+pokemon125.hasDiverseTraits = [anda_de_dois, evolucao]
+
 # Magmar
+
+pokemon126 = onto.Pokemon("Magmar")
+pokemon126.hasType = [fogo]
+pokemon126.hasColor = [laranja]
+pokemon126.hasCategory = [normal]
+pokemon126.hasPhysicalTrait = [pes, maos, cauda, bico]
+pokemon126.hasDiverseTraits = [evolucao, anda_de_dois]
 
 # Pinsir
 
+pokemon127 = onto.Pokemon("Pinsir")
+pokemon127.hasType = [inseto]
+pokemon127.hasColor = [cinza]
+pokemon127.hasCategory = [normal]
+pokemon127.hasPhysicalTrait = [pes, maos, chifres, boca]
+pokemon127.hasDiverseTraits = [anda_de_dois]
+
 # Tauros
+
+pokemon128 = onto.Pokemon("Tauros")
+pokemon128.hasType = [normal]
+pokemon128.hasColor = [marrom_claro]
+pokemon128.hasCategory = [normal]
+pokemon128.hasPhysicalTrait = [pes, cauda, focinho, chifres, boca]
+pokemon128.hasDiverseTraits = [anda_de_quatro]
 
 # Magikarp
 
+pokemon129 = onto.Pokemon("Magikarp")
+pokemon129.hasType = [agua]
+pokemon129.hasColor = [laranja]
+pokemon129.hasCategory = [normal]
+pokemon129.hasPhysicalTrait = [cauda, boca]
+pokemon129.hasDiverseTraits = []
+
 # Gyarados
+
+pokemon130 = onto.Pokemon("Gyarados")
+pokemon130.hasType = [agua, voador]
+pokemon130.hasColor = [azul]
+pokemon130.hasCategory = [normal]
+pokemon130.hasPhysicalTrait = [cauda, boca]
+pokemon130.hasDiverseTraits = [evolucao]
 
 # Lapras
 
+pokemon131 = onto.Pokemon("Lapras")
+pokemon131.hasType = [agua, gelo]
+pokemon131.hasColor = [azul]
+pokemon131.hasCategory = [normal]
+pokemon131.hasPhysicalTrait = [cauda, focinho, orelhas, chifres]
+pokemon131.hasDiverseTraits = []
+
 # Ditto
+
+pokemon132 = onto.Pokemon("Ditto")
+pokemon132.hasType = [normal]
+pokemon132.hasColor = [roxo]
+pokemon132.hasCategory = [normal]
+pokemon132.hasPhysicalTrait = [boca]
+pokemon132.hasDiverseTraits = []
 
 # Eevee
 
+pokemon133 = onto.Pokemon("Eevee")
+pokemon133.hasType = [normal]
+pokemon133.hasColor = [marrom]
+pokemon133.hasCategory = [normal]
+pokemon133.hasPhysicalTrait = [pes, cauda, focinho, orelhas, boca]
+pokemon133.hasDiverseTraits = [anda_de_quatro]
+
 # Vaporeon
+
+pokemon134 = onto.Pokemon("Vaporeon")
+pokemon134.hasType = [agua]
+pokemon134.hasColor = [azul]
+pokemon134.hasCategory = [normal]
+pokemon134.hasPhysicalTrait = [pes, cauda, focinho, orelhas, boca]
+pokemon134.hasDiverseTraits = [evolucao, anda_de_quatro]
 
 # Jolteon
 
+pokemon135 = onto.Pokemon("Jolteon")
+pokemon135.hasType = [eletrico]
+pokemon135.hasColor = [amarelo]
+pokemon135.hasCategory = [normal]
+pokemon135.hasPhysicalTrait = [pes, cauda, focinho, orelhas, boca]
+pokemon135.hasDiverseTraits = [evolucao, anda_de_quatro]
+
 # Flareon
+
+pokemon136 = onto.Pokemon("Flareon")
+pokemon136.hasType = [fogo]
+pokemon136.hasColor = [laranja]
+pokemon136.hasCategory = [normal]
+pokemon136.hasPhysicalTrait = [pes, cauda, focinho, orelhas, boca]
+pokemon136.hasDiverseTraits = [evolucao, anda_de_quatro]
 
 # Porygon
 
+pokemon137 = onto.Pokemon("Porygon")
+pokemon137.hasType = [normal]
+pokemon137.hasColor = [rosa]
+pokemon137.hasCategory = [normal]
+pokemon137.hasPhysicalTrait = [cauda]
+pokemon137.hasDiverseTraits = []
+
 # Omanyte
+
+pokemon138 = onto.Pokemon("Omanyte")
+pokemon138.hasType = [rocha, agua]
+pokemon138.hasColor = [azul]
+pokemon138.hasCategory = [normal]
+pokemon138.hasPhysicalTrait = []
+pokemon138.hasDiverseTraits = []
 
 # Omastar
 
+pokemon139 = onto.Pokemon("Omastar")
+pokemon139.hasType = [rocha, agua]
+pokemon139.hasColor = [azul]
+pokemon139.hasCategory = [normal]
+pokemon139.hasPhysicalTrait = []
+pokemon139.hasDiverseTraits = [evolucao]
+
 # Kabuto
+
+pokemon140 = onto.Pokemon("Kabuto")
+pokemon140.hasType = [rocha, agua]
+pokemon140.hasColor = [marrom]
+pokemon140.hasCategory = [normal]
+pokemon140.hasPhysicalTrait = []
+pokemon140.hasDiverseTraits = [anda_de_quatro]
 
 # Kabutops
 
+pokemon141 = onto.Pokemon("Kabutops")
+pokemon141.hasType = [rocha, agua]
+pokemon141.hasColor = [marrom]
+pokemon141.hasCategory = [normal]
+pokemon141.hasPhysicalTrait = [cauda, pes]
+pokemon141.hasDiverseTraits = [evolucao, anda_de_dois]
+
 # Aerodactyl
 
+pokemon142 = onto.Pokemon("Aerodactyl")
+pokemon142.hasType = [rocha, voador]
+pokemon142.hasColor = [roxo]
+pokemon142.hasCategory = [normal]
+pokemon142.hasPhysicalTrait = [pes, maos, asas, cauda, focinho, orelhas, boca]
+pokemon142.hasDiverseTraits = []
+
 # Snorlax
+
+pokemon143 = onto.Pokemon("Snorlax")
+pokemon143.hasType = [normal]
+pokemon143.hasColor = [azul]
+pokemon143.hasCategory = [normal]
+pokemon143.hasPhysicalTrait = [pes, maos, orelhas, boca]
+pokemon143.hasDiverseTraits = [evolucao, anda_de_dois]
 
 # Articuno
 pokemon144 = onto.Pokemon("Articuno")
@@ -1030,14 +1332,6 @@ pokemon150.hasColor = [rosa]
 pokemon150.hasCategory = [lendario]
 pokemon150.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda, boca]
 pokemon150.hasDiverseTraits = [anda_de_dois]
-
-# Mew
-pokemon151 = onto.Pokemon("Mew")
-pokemon151.hasType = [psiquico]
-pokemon151.hasColor = [rosa]
-pokemon151.hasCategory = [mitico]
-pokemon151.hasPhysicalTrait = [pes, maos, focinho, orelhas, cauda]
-pokemon151.hasDiverseTraits = [anda_de_dois]
 
 # Salvar a ontologia em um arquivo RDF
 onto.save("pokemon_ontology.owl", format="rdfxml")
