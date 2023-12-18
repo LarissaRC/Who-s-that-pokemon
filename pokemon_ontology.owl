@@ -248,11 +248,11 @@
   <hasType rdf:resource="#Venenoso"/>
   <hasColor rdf:resource="#Verde"/>
   <hasCategory rdf:resource="#Normal"/>
-  <hasPhysicalTrait rdf:resource="#Orelhas"/>
-  <hasPhysicalTrait rdf:resource="#Boca"/>
   <hasPhysicalTrait rdf:resource="#Mãos"/>
-  <hasPhysicalTrait rdf:resource="#Pés"/>
   <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Orelhas"/>
   <hasDiverseTraits rdf:resource="#Anda de quatro"/>
 </owl:NamedIndividual>
 
@@ -262,10 +262,10 @@
   <hasColor rdf:resource="#Laranja"/>
   <hasCategory rdf:resource="#Normal"/>
   <hasPhysicalTrait rdf:resource="#Mãos"/>
-  <hasPhysicalTrait rdf:resource="#Boca"/>
-  <hasPhysicalTrait rdf:resource="#Pés"/>
-  <hasPhysicalTrait rdf:resource="#Cauda"/>
   <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
   <hasDiverseTraits rdf:resource="#Anda de dois"/>
 </owl:NamedIndividual>
 
@@ -275,10 +275,10 @@
   <hasColor rdf:resource="#Azul"/>
   <hasCategory rdf:resource="#Normal"/>
   <hasPhysicalTrait rdf:resource="#Mãos"/>
-  <hasPhysicalTrait rdf:resource="#Boca"/>
-  <hasPhysicalTrait rdf:resource="#Pés"/>
-  <hasPhysicalTrait rdf:resource="#Cauda"/>
   <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
   <hasDiverseTraits rdf:resource="#Anda de dois"/>
 </owl:NamedIndividual>
 
@@ -288,11 +288,11 @@
   <hasType rdf:resource="#Voador"/>
   <hasColor rdf:resource="#Azul"/>
   <hasCategory rdf:resource="#Lendário"/>
-  <hasPhysicalTrait rdf:resource="#Bico"/>
-  <hasPhysicalTrait rdf:resource="#Boca"/>
   <hasPhysicalTrait rdf:resource="#Pés"/>
   <hasPhysicalTrait rdf:resource="#Asas"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
   <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Bico"/>
   <hasDiverseTraits rdf:resource="#Anda de dois"/>
 </owl:NamedIndividual>
 
@@ -302,25 +302,25 @@
   <hasType rdf:resource="#Voador"/>
   <hasColor rdf:resource="#Amarelo"/>
   <hasCategory rdf:resource="#Lendário"/>
-  <hasPhysicalTrait rdf:resource="#Bico"/>
-  <hasPhysicalTrait rdf:resource="#Boca"/>
   <hasPhysicalTrait rdf:resource="#Pés"/>
   <hasPhysicalTrait rdf:resource="#Asas"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
   <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Bico"/>
   <hasDiverseTraits rdf:resource="#Anda de dois"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Moltres">
   <rdf:type rdf:resource="#Pokemon"/>
-  <hasType rdf:resource="#Fogo"/>
   <hasType rdf:resource="#Voador"/>
+  <hasType rdf:resource="#Fogo"/>
   <hasColor rdf:resource="#Laranja"/>
   <hasCategory rdf:resource="#Lendário"/>
-  <hasPhysicalTrait rdf:resource="#Bico"/>
-  <hasPhysicalTrait rdf:resource="#Boca"/>
   <hasPhysicalTrait rdf:resource="#Pés"/>
   <hasPhysicalTrait rdf:resource="#Asas"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
   <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Bico"/>
   <hasDiverseTraits rdf:resource="#Anda de dois"/>
 </owl:NamedIndividual>
 
@@ -347,18 +347,18 @@
 
 <owl:NamedIndividual rdf:about="#Dragonite">
   <rdf:type rdf:resource="#Pokemon"/>
-  <hasType rdf:resource="#Dragão"/>
   <hasType rdf:resource="#Voador"/>
+  <hasType rdf:resource="#Dragão"/>
   <hasColor rdf:resource="#Amarelo"/>
   <hasCategory rdf:resource="#Normal"/>
-  <hasPhysicalTrait rdf:resource="#Boca"/>
   <hasPhysicalTrait rdf:resource="#Mãos"/>
+  <hasPhysicalTrait rdf:resource="#Focinho"/>
   <hasPhysicalTrait rdf:resource="#Pés"/>
   <hasPhysicalTrait rdf:resource="#Asas"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
   <hasPhysicalTrait rdf:resource="#Cauda"/>
-  <hasPhysicalTrait rdf:resource="#Focinho"/>
-  <hasDiverseTraits rdf:resource="#Anda de dois"/>
   <hasDiverseTraits rdf:resource="#Evolução"/>
+  <hasDiverseTraits rdf:resource="#Anda de dois"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mewtwo">
@@ -366,12 +366,12 @@
   <hasType rdf:resource="#Psíquico"/>
   <hasColor rdf:resource="#Rosa"/>
   <hasCategory rdf:resource="#Lendário"/>
-  <hasPhysicalTrait rdf:resource="#Orelhas"/>
   <hasPhysicalTrait rdf:resource="#Mãos"/>
-  <hasPhysicalTrait rdf:resource="#Boca"/>
-  <hasPhysicalTrait rdf:resource="#Pés"/>
-  <hasPhysicalTrait rdf:resource="#Cauda"/>
   <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Orelhas"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
   <hasDiverseTraits rdf:resource="#Anda de dois"/>
 </owl:NamedIndividual>
 
@@ -380,11 +380,11 @@
   <hasType rdf:resource="#Psíquico"/>
   <hasColor rdf:resource="#Rosa"/>
   <hasCategory rdf:resource="#Mítico"/>
-  <hasPhysicalTrait rdf:resource="#Orelhas"/>
   <hasPhysicalTrait rdf:resource="#Mãos"/>
-  <hasPhysicalTrait rdf:resource="#Pés"/>
-  <hasPhysicalTrait rdf:resource="#Cauda"/>
   <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Orelhas"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
   <hasDiverseTraits rdf:resource="#Anda de dois"/>
 </owl:NamedIndividual>
 

@@ -7,7 +7,10 @@ onto = get_ontology("./pokemon_ontology.owl").load()
 with onto:
     pokemons = onto.search(is_a = onto.Pokemon)
 
-st.title("Quem é esse pokemon?")
+st.image('./img/whosthatpokemon.png')
+
+st.image('./img/titulo.png')
+
 
 st.header("Qual o tipo?")
 tipo1 = st.selectbox("", [
@@ -18,7 +21,7 @@ tipo1 = st.selectbox("", [
 st.header("Qual a cor dele?")
 cor = st.selectbox("", [
     "", "Verde", "Laranja", "Azul", "Roxo", "Marrom", "Amarelo", "Rosa", "Vermelho",
-    "Marrom claro", "Lilás", "Cinza", "Branci"
+    "Marrom claro", "Lilás", "Cinza", "Branco"
 ], key=2)
 
 st.header("Qual a categoria?")
@@ -69,7 +72,7 @@ diverse_traits["Anda de quatro"] = st.radio("", ["Não sei informar", "Sim", "N�
 st.header("Anda sobre duas patas?")
 diverse_traits["Anda de dois"] = st.radio("", ["Não sei informar", "Sim", "Não"], key=16)
 
-st.header("Perece um objeto?")
+st.header("Parece um objeto?")
 diverse_traits["Parece objeto"] = st.radio("", ["Não sei informar", "Sim", "Não"], key=17)
 
 st.header("Tem mais de uma cabeça?")
@@ -134,11 +137,11 @@ for pokemon in pokemons:
 
 ###############################################################################
 
-st.sidebar.title("O pokemon que você procura pode estar aqui:")
+st.sidebar.title("O pokémon que você procura pode estar aqui:")
 cont = 0
 for pokemon in pokemons_validos:
     if cont == 10:
-        st.sidebar.write(f"(Mais {len(pokemons_validos) - 10} pokemons)")
+        st.sidebar.write(f"(Mais {len(pokemons_validos) - 10} pokémons)")
         break
     st.sidebar.write("- " + pokemon.name)
     if len(pokemons_validos) < 5:
