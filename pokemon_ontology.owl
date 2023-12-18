@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.example.org/pokemon_ontology.owl"
+         xmlns="http://www.example.org/pokemon_ontology.owl#">
+
+<owl:Ontology rdf:about="http://www.example.org/pokemon_ontology.owl"/>
+
+<owl:ObjectProperty rdf:about="#hasType">
+  <rdfs:domain rdf:resource="#Pokemon"/>
+  <rdfs:range rdf:resource="#Type"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasColor">
+  <rdfs:domain rdf:resource="#Pokemon"/>
+  <rdfs:range rdf:resource="#Color"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasCategory">
+  <rdfs:domain rdf:resource="#Pokemon"/>
+  <rdfs:range rdf:resource="#Category"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasPhysicalTrait">
+  <rdfs:domain rdf:resource="#Pokemon"/>
+  <rdfs:range rdf:resource="#PhysicalTrait"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasDiverseTraits">
+  <rdfs:domain rdf:resource="#Pokemon"/>
+  <rdfs:range rdf:resource="#DiverseTrait"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#Pokemon">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Type">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Color">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Category">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PhysicalTrait">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#DiverseTrait">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#Grama">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fogo">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Água">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Inseto">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Normal">
+  <rdf:type rdf:resource="#Type"/>
+  <rdf:type rdf:resource="#Category"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Lutador">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Voador">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Venenoso">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Elétrico">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Solo">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Psíquico">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rocha">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fantasma">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Dragão">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aço">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gelo">
+  <rdf:type rdf:resource="#Type"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Verde">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Laranja">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Azul">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Roxo">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Marrom">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Amarelo">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rosa">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Vermelho">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Marrom claro">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Lilás">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cinza">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Branco">
+  <rdf:type rdf:resource="#Color"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Lendário">
+  <rdf:type rdf:resource="#Category"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mítico">
+  <rdf:type rdf:resource="#Category"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pés">
+  <rdf:type rdf:resource="#PhysicalTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mãos">
+  <rdf:type rdf:resource="#PhysicalTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Asas">
+  <rdf:type rdf:resource="#PhysicalTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cauda">
+  <rdf:type rdf:resource="#PhysicalTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Bico">
+  <rdf:type rdf:resource="#PhysicalTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Focinho">
+  <rdf:type rdf:resource="#PhysicalTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Orelhas">
+  <rdf:type rdf:resource="#PhysicalTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Chifres">
+  <rdf:type rdf:resource="#PhysicalTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Boca">
+  <rdf:type rdf:resource="#PhysicalTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Evolução">
+  <rdf:type rdf:resource="#DiverseTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Redondo">
+  <rdf:type rdf:resource="#DiverseTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Anda de quatro">
+  <rdf:type rdf:resource="#DiverseTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Anda de dois">
+  <rdf:type rdf:resource="#DiverseTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Parece objeto">
+  <rdf:type rdf:resource="#DiverseTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cabeças">
+  <rdf:type rdf:resource="#DiverseTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Segura objeto">
+  <rdf:type rdf:resource="#DiverseTrait"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Bulbasaur">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Grama"/>
+  <hasType rdf:resource="#Venenoso"/>
+  <hasColor rdf:resource="#Verde"/>
+  <hasCategory rdf:resource="#Normal"/>
+  <hasPhysicalTrait rdf:resource="#Orelhas"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Mãos"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasDiverseTraits rdf:resource="#Anda de quatro"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Charmander">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Fogo"/>
+  <hasColor rdf:resource="#Laranja"/>
+  <hasCategory rdf:resource="#Normal"/>
+  <hasPhysicalTrait rdf:resource="#Mãos"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasDiverseTraits rdf:resource="#Anda de dois"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Squirtle">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Água"/>
+  <hasColor rdf:resource="#Azul"/>
+  <hasCategory rdf:resource="#Normal"/>
+  <hasPhysicalTrait rdf:resource="#Mãos"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasDiverseTraits rdf:resource="#Anda de dois"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Articuno">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Elétrico"/>
+  <hasType rdf:resource="#Voador"/>
+  <hasColor rdf:resource="#Azul"/>
+  <hasCategory rdf:resource="#Lendário"/>
+  <hasPhysicalTrait rdf:resource="#Bico"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Asas"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasDiverseTraits rdf:resource="#Anda de dois"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Zapdos">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Elétrico"/>
+  <hasType rdf:resource="#Voador"/>
+  <hasColor rdf:resource="#Amarelo"/>
+  <hasCategory rdf:resource="#Lendário"/>
+  <hasPhysicalTrait rdf:resource="#Bico"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Asas"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasDiverseTraits rdf:resource="#Anda de dois"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Moltres">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Fogo"/>
+  <hasType rdf:resource="#Voador"/>
+  <hasColor rdf:resource="#Laranja"/>
+  <hasCategory rdf:resource="#Lendário"/>
+  <hasPhysicalTrait rdf:resource="#Bico"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Asas"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasDiverseTraits rdf:resource="#Anda de dois"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Dratini">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Dragão"/>
+  <hasColor rdf:resource="#Azul"/>
+  <hasCategory rdf:resource="#Normal"/>
+  <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Dragonair">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Dragão"/>
+  <hasColor rdf:resource="#Azul"/>
+  <hasCategory rdf:resource="#Normal"/>
+  <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasDiverseTraits rdf:resource="#Evolução"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Dragonite">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Dragão"/>
+  <hasType rdf:resource="#Voador"/>
+  <hasColor rdf:resource="#Amarelo"/>
+  <hasCategory rdf:resource="#Normal"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Mãos"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Asas"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasDiverseTraits rdf:resource="#Anda de dois"/>
+  <hasDiverseTraits rdf:resource="#Evolução"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mewtwo">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Psíquico"/>
+  <hasColor rdf:resource="#Rosa"/>
+  <hasCategory rdf:resource="#Lendário"/>
+  <hasPhysicalTrait rdf:resource="#Orelhas"/>
+  <hasPhysicalTrait rdf:resource="#Mãos"/>
+  <hasPhysicalTrait rdf:resource="#Boca"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasDiverseTraits rdf:resource="#Anda de dois"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mew">
+  <rdf:type rdf:resource="#Pokemon"/>
+  <hasType rdf:resource="#Psíquico"/>
+  <hasColor rdf:resource="#Rosa"/>
+  <hasCategory rdf:resource="#Mítico"/>
+  <hasPhysicalTrait rdf:resource="#Orelhas"/>
+  <hasPhysicalTrait rdf:resource="#Mãos"/>
+  <hasPhysicalTrait rdf:resource="#Pés"/>
+  <hasPhysicalTrait rdf:resource="#Cauda"/>
+  <hasPhysicalTrait rdf:resource="#Focinho"/>
+  <hasDiverseTraits rdf:resource="#Anda de dois"/>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>
